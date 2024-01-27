@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ViewController.btRun(_:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "headStr">
+            </PersistentString>
+            <PersistentString
+               value = "tailStr">
+            </PersistentString>
+            <PersistentString
+               value = "midStr">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
