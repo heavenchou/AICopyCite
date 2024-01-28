@@ -770,9 +770,9 @@
                                                 </connections>
                                             </button>
                                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I3m-YD-HuE">
-                                                <rect key="frame" x="320" y="397" width="88" height="32"/>
+                                                <rect key="frame" x="320" y="397" width="157" height="32"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                <buttonCell key="cell" type="push" title="組成結果" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="hNf-ef-qvt">
+                                                <buttonCell key="cell" type="push" title="組成結果（存剪貼簿）" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="hNf-ef-qvt">
                                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                     <font key="font" metaFont="system"/>
                                                 </buttonCell>
@@ -792,9 +792,9 @@
                                                 </connections>
                                             </button>
                                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3u8-8G-OPH">
-                                                <rect key="frame" x="7" y="434" width="80" height="18"/>
+                                                <rect key="frame" x="7" y="434" width="149" height="18"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                <buttonCell key="cell" type="radio" title="新標網站" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="VfD-cm-k0c">
+                                                <buttonCell key="cell" type="radio" title="新標網站（新版界面）" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="VfD-cm-k0c">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                                     <font key="font" metaFont="system"/>
                                                 </buttonCell>
@@ -803,9 +803,9 @@
                                                 </connections>
                                             </button>
                                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s2W-an-rGl">
-                                                <rect key="frame" x="94" y="434" width="106" height="18"/>
+                                                <rect key="frame" x="162" y="434" width="149" height="18"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                <buttonCell key="cell" type="radio" title="舊版新標網站" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="dGX-sW-pFa">
+                                                <buttonCell key="cell" type="radio" title="新標網站（舊版界面）" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="dGX-sW-pFa">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                                     <font key="font" metaFont="system"/>
                                                 </buttonCell>

@@ -32,7 +32,7 @@ class ViewController: NSViewController {
 
         // Do any additional setup after loading the view.
         
-        splitView.setPosition(360, ofDividerAt: 0)
+        splitView.setPosition(410, ofDividerAt: 0)
         
         let myRequest = URLRequest(url: urlNewSite!)
         webView.load(myRequest)
@@ -48,6 +48,7 @@ class ViewController: NSViewController {
         super.viewDidAppear()
         //view.window?.maxFullScreenContentSize
         view.window?.zoom(self)
+        view.window?.title = "引用複製自動新標"
     }
     
     // 將文字貼在編輯欄位中
