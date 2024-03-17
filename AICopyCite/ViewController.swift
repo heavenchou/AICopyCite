@@ -91,7 +91,7 @@ class ViewController: NSViewController {
     // 網頁執行新標
     @IBAction func btPunct(_ sender: Any) {
         if rbNewSite.state == .on {
-            let strJS = "punct();"
+            let strJS = "punct_pro();"
             webView.evaluateJavaScript(strJS)
         } else {
             let strJS = "processHandler();"
@@ -102,7 +102,8 @@ class ViewController: NSViewController {
     // 複製文字
     @IBAction func btGetText(_ sender: Any) {
         if rbNewSite.state == .on {
-            let strJS = "copyText();"
+            //let strJS = "copyText();"
+            let strJS = "$('#copy-btn').trigger('click');"
             webView.evaluateJavaScript(strJS)
         } else {
             let strJS = "copyTxt();"
